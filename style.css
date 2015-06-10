@@ -1,0 +1,178 @@
+* {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+html{
+	font-family: Georgia, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: #454544;
+}
+#container{
+	width: 940px;
+	margin: 0 auto;
+	display: block;
+	box-sizing:border-box;
+}
+header#top-header{
+text-align: center;
+width: 564px;
+margin: 0 auto;
+padding: 1rem 0;
+
+}
+#top-header .logo{
+	width: 70%;
+	
+	display: block;
+	margin: 0 auto;
+	line-height: 60px;
+}
+#top-header .logo h1{
+	background:url("images/dog.png")  no-repeat,left,center;
+	background-size: 60px;
+	font-size: 37px;
+	font-family: 'Patua One', cursive;
+	text-align: center;
+	margin: 0 auto;
+}
+#top-header .logo h3{
+	font-size: 25px;
+	font-family: 'Patua One', cursive;
+	text-align: center;
+	margin: 0 auto;
+}
+nav{
+	width: 100%;
+	border-bottom: 1px dashed black;
+	border-top: 1px dashed black;
+	margin: 1rem 0;
+	padding: 1rem;
+}
+
+nav ul li{
+	display: inline-block;
+
+}
+nav ul li a{
+	font-weight: bold;
+	text-decoration: none;
+	padding: 0.8rem;
+	margin: 0 0.2rem;
+	color: orange;
+}
+nav ul li a:hover{
+	color: blue;
+	background-color: orange;
+}
+figure {
+	margin-bottom: 4rem;
+
+}
+figure img{
+	width: 940px;
+	height: 400px;
+	
+
+	
+}
+ main, aside,footer{
+	display: inline-block;
+	float: left;
+	box-sizing:border-box;
+}
+main{
+	width: 75%;
+	padding: 1rem 1rem 1rem 0;
+	background-color: transparent;
+}
+article#imp-article{
+	font-size: 1.5rem;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	border-top: 1px dashed black;
+	border-bottom: 1px dashed black;
+	padding: 10px;
+	line-height: 1.6rem;
+}
+article#second-article{
+	padding-top: 30px;
+	width: 95%;
+	
+}
+img#img-news{
+	width: 300px;
+	height: 300px;
+	border: 1px solid black;
+	float: left;
+    margin-right: 10px;
+}
+
+article#second-article h4{
+	font-size: 20px;
+	color: black;
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+article#second-article p{
+    text-align: justify;
+	font-size: 16px;
+	color: black;
+}
+aside{
+	width: 25%;
+	
+
+}
+section#box{
+	border: 1px dashed black;
+	padding: 1rem;
+	background-color: pink;
+}
+section#box h5{
+	font-size: 1.4rem;
+	line-height: 2rem;
+	font-weight: bold;
+}
+section#box:first-of-type{
+	margin-bottom: 4rem;
+}
+section#box ul li{
+	text-decoration: none;
+	display: block;
+}
+section#box ul li a{
+	line-height: 2rem;
+	font-size: 1.2rem;
+	text-decoration: none;
+}
+section#box ul li a:hover{
+	color: orange;
+	text-decoration: underline;
+}
+input{
+	border: 1px solid #454544;
+}
+button{
+	border: 1px solid black;
+}
+form{
+	margin-bottom: 1rem;
+}
+#container{
+	background-color: red;
+}
+
+footer{
+	margin-top: 1rem;
+	width: 100%;
+	text-align: center;
+	background-color: yellow;
+	border-top: 1px solid black;
+	line-height: 3rem;
+}
